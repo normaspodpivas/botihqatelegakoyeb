@@ -17,8 +17,9 @@ class TelegramAutoreplyBot():
 
 
 	def __init__(self):
-		self.api_id: int = 21390123
-		self.api_hash: str = '194b2c8f0d8ac59cd757a18d5c59f8e7'
+		self.api_id: int = 22703636
+		self.api_hash: str = '4f55b28a4014ea7454451a19a16464a1
+'
 		self.phone: int = 79292416255
 		self.client: TelegramClient = TelegramClient("autoreply_bot", self.api_id, self.api_hash, system_version='4.16.30-vxRedme', device_model='Redme note 8', app_version='10.6.1')
 		self.client.start(self.phone)
